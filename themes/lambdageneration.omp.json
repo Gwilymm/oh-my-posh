@@ -118,17 +118,18 @@
         "segments": [
           
           {
-            "type": "wakatime",
-            "style": "diamond",
-            "leading_diamond": "\ue0b4",
+            
             "foreground": "#292929",
             "background": "#fb7e14",
-            "template": "{{ secondsRound .CummulativeTotal.Seconds }}",
             "properties": {
-                "url": "https://wakatime.com/api/v1/users/current/summaries?range=Last 7 Days&api_key=5e26abcc-0c63-4fbd-826a-9c4c1c24bb75",
-                "cache_timeout": 10,
-                "http_timeout": 500
-            }
+              "url": "https://wakatime.com/api/v1/users/current/summaries?range=Last 7 Days&api_key=5e26abcc-0c63-4fbd-826a-9c4c1c24bb75",
+              "cache_timeout": 10,
+              "http_timeout": 500
+            },
+            "type": "wakatime",
+            "template": "{{ .CummulativeTotal.Seconds }}",
+            "style": "diamond",
+            "leading_diamond": "\ue0b4"
 
         },
           
