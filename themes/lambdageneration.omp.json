@@ -97,7 +97,7 @@
           {
             "background": "#292929",
             "foreground": "#fb7e14",
-            "leading_diamond": "\ue0b2",
+            "trailing_diamond": "\ue0b2",
             "style": "diamond",
             "template": "\ue73d {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
             "type": "php"
