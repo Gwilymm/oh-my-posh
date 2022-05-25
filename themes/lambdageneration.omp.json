@@ -117,6 +117,19 @@
         "segments": [
           
           {
+            "type": "wakatime",
+            "style": "powerline",
+            "powerline_symbol": "\uE0B0",
+            "foreground": "#292929",
+            "background": "#fb7e14",
+            "properties": {
+                "url": "https://wakatime.com/api/v1/users/current/summaries?start=today&end=today&api_key=5e26abcc-0c63-4fbd-826a-9c4c1c24bb75",
+                "cache_timeout": 10,
+                "http_timeout": 500
+            }
+        },
+          
+          {
             "background": "#292929",
             "foreground": "#526d3a",
             "properties": {
