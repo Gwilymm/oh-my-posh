@@ -112,19 +112,20 @@
         ],
         "type": "prompt"
       },
+
       {
         "alignment": "right",
         "segments": [
           
           {
             "type": "wakatime",
-            "style": "powerline",
-            "powerline_symbol": "\uE0B0",
+            "style": "diamond",
+            "leading_diamond": "\ue0b4",
             "foreground": "#292929",
             "background": "#fb7e14",
             "template": "{{ secondsRound .CummulativeTotal.Seconds }}",
             "properties": {
-                "url": "https://wakatime.com/api/v1/users/current/summaries?start=today&end=today&api_key=5e26abcc-0c63-4fbd-826a-9c4c1c24bb75",
+                "url": "https://wakatime.com/api/v1/users/current/summaries?range=Last 7 Days&api_key=5e26abcc-0c63-4fbd-826a-9c4c1c24bb75",
                 "cache_timeout": 10,
                 "http_timeout": 500
             }
@@ -145,6 +146,7 @@
         ],
         "type": "prompt"
       },
+
       {
         "alignment": "left",
         "newline": true,
