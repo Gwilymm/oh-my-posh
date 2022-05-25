@@ -152,6 +152,19 @@
         "alignment": "left",
         "newline": true,
         "segments": [
+
+          {
+            "type": "php",
+            "style": "powerline",
+            "powerline_symbol": "\uE0B0",
+            "foreground": "#ffffff",
+            "background": "#4063D8",
+            "template": " \ue73d {{ .Full }} "
+          },
+
+
+
+
           {
             "properties": {
               "always_enabled": true
