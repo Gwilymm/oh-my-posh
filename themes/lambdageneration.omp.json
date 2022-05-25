@@ -43,7 +43,7 @@
           },
           "style": "diamond",
           "template": " {{ .Path }} ",
-          "trailing_diamond": "\ue0b0",
+          
           "type": "path"
           },
 
@@ -118,7 +118,7 @@
           
           {
             "background": "#292929",
-            "foreground": "#fb7e14",
+            "foreground": "#526d3a",
             "properties": {
               "time_format": "15:04:05"
             },
