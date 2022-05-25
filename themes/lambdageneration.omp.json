@@ -116,9 +116,18 @@
       {
         "alignment": "right",
         "segments": [
+
+          {
+            "type": "php",
+            "style": "powerline",
+            "powerline_symbol": "\uE0B0",
+            "foreground": "#ffffff",
+            "background": "#4063D8",
+            "template": " \ue73d {{ .Full }} "
+          },
+
           
           {
-            
             "foreground": "#292929",
             "background": "#fb7e14",
             "properties": {
@@ -153,18 +162,7 @@
         "newline": true,
         "segments": [
 
-          {
-            "type": "php",
-            "style": "powerline",
-            "powerline_symbol": "\uE0B0",
-            "foreground": "#ffffff",
-            "background": "#4063D8",
-            "template": " \ue73d {{ .Full }} "
-          },
-
-
-
-
+          
           {
             "properties": {
               "always_enabled": true
