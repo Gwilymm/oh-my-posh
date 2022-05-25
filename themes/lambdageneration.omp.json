@@ -58,7 +58,7 @@
             "background": "#292929",
             "foreground": "#fb7e14",
             "foreground_templates": [
-              "{{ if or (.Working.Changed) (.Staging.Changed) }}#addb67{{ end }}",
+              "{{ if or (.Working.Changed) (.Staging.Changed) }}#009de1{{ end }}",
               "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#f78c6c{{ end }}",
               "{{ if gt .Ahead 0 }}#21c7a8{{ end }}",
               "{{ if gt .Behind 0 }}#c792ea{{ end }}"
