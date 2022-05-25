@@ -95,31 +95,6 @@
             "type": "battery"
           },
           {
-            "background": "#292929",
-            "background_templates": [
-              "{{ if gt .Code 0 }}#292929{{ end }}"
-            ],
-            "foreground": "#bc3237",
-            "properties": {
-              "always_enabled": true,
-              "display_exit_code": true
-            },
-            "style": "diamond",
-            "template": " {{ if gt .Code 0 }}\uf00d {{ .Meaning }}{{ else }}\uf00c{{ end }} ",
-            "trailing_diamond": "\ue0b4",
-            "type": "exit"
-          }
-        ],
-        "type": "prompt"
-      },
-
-      {
-        "alignment": "right",
-        "segments": [
-
-          
-          
-          {
             "foreground": "#292929",
             "background": "#fb7e14",
             "properties": {
@@ -132,7 +107,18 @@
             "style": "diamond",
             "leading_diamond": "\ue0b4"
 
-        },
+        }
+        ],
+        "type": "prompt"
+      },
+
+      {
+        "alignment": "right",
+        "segments": [
+
+          
+          
+          
           
           {
             "background": "#292929",
@@ -152,7 +138,6 @@
             "leading_diamond": "\ue0b2",
             "style": "diamond",
             "template": "\ue73d {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
-            "trailing_diamond": "\ue0b2",
             "type": "php"
           }
 
