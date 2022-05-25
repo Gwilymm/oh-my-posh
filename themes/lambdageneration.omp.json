@@ -78,7 +78,7 @@
           },
           {
             "background": "#292929",
-            "foreground": "#26C6DA",
+            "foreground": "#da2626",
             "foreground_templates": [
               "{{ if eq \"Full\" .State.String }}#292929{{ end }}",
               "{{ if eq \"Charging\" .State.String }}#40c4ff{{ end }}",
