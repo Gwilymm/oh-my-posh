@@ -95,6 +95,14 @@
             "type": "battery"
           },
           {
+            "background": "#292929",
+            "foreground": "#fb7e14",
+            "leading_diamond": "\ue0b2",
+            "style": "diamond",
+            "template": "\ue73d {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
+            "type": "php"
+          },
+          {
             "foreground": "#292929",
             "background": "#fb7e14",
             "properties": {
@@ -130,16 +138,9 @@
             "template": "{{ .CurrentDate | date .Format }} \uf017 ",
             "trailing_diamond": "\ue0b4",
             "type": "time"
-          },
-
-          {
-            "background": "#292929",
-            "foreground": "#fb7e14",
-            "leading_diamond": "\ue0b2",
-            "style": "diamond",
-            "template": "\ue73d {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
-            "type": "php"
           }
+
+          
 
 
         ],
