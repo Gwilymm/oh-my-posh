@@ -46,7 +46,7 @@
           "trailing_diamond": "\ue0b0",
           "type": "path"
           },
-          
+
           {
             "background": "#292929",
             "foreground": "#D4E157",
@@ -115,14 +115,7 @@
       {
         "alignment": "right",
         "segments": [
-          {
-            "background": "#292929",
-            "foreground": "#fb7e14",
-            "leading_diamond": "\ue0b6",
-            "style": "diamond",
-            "template": " {{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }}@{{ .HostName }} <#fb7e14>\ue0b3</> ",
-            "type": "session"
-          },
+          
           {
             "background": "#292929",
             "foreground": "#fb7e14",
